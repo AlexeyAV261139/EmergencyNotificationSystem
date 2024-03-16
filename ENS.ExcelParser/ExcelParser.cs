@@ -18,20 +18,23 @@ namespace ENS.ExcelParser
         public DataSet GetData()
         {
             return GetDataFromExcelAsDataSet();
-        }    
+        }
 
         private DataSet GetDataFromExcelAsDataSet()
         {
             try
             {
                 using (var stream = File.Open(_filePath, FileMode.Open, FileAccess.Read))
-                {                    
+                {
+                    // Auto-detect format, supports:
+                    // - Binary Excel files (2.0-2003 format; *.xls)
+                    // - OpenXml Excel files (2007 format; *.xlsx, *.xlsb)
                     using (var reader = ExcelReaderFactory.CreateReader(stream))
-                    {                       
+                    {
                         var result = reader.AsDataSet();
                         return result;
                     }
-                }               
+                }
             }
             catch 
             {
