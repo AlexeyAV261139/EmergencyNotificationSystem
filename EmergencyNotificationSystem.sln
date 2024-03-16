@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ENS.ExcelParser", "ENS.Exce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParserTests", "ParserTests\ParserTests.csproj", "{0F59A52D-1C0C-464F-9B74-66F73CC30C88}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ENS.DBAccess", "ENS.DBAccess\ENS.DBAccess.csproj", "{CAF56B3A-8CE3-4F94-9947-11C95DB2A329}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ENS.View", "ENS.View\ENS.View.csproj", "{AB5FD6F0-D458-47C0-8AF6-39DCC2D28CA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{0F59A52D-1C0C-464F-9B74-66F73CC30C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F59A52D-1C0C-464F-9B74-66F73CC30C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F59A52D-1C0C-464F-9B74-66F73CC30C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF56B3A-8CE3-4F94-9947-11C95DB2A329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF56B3A-8CE3-4F94-9947-11C95DB2A329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF56B3A-8CE3-4F94-9947-11C95DB2A329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF56B3A-8CE3-4F94-9947-11C95DB2A329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5FD6F0-D458-47C0-8AF6-39DCC2D28CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5FD6F0-D458-47C0-8AF6-39DCC2D28CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5FD6F0-D458-47C0-8AF6-39DCC2D28CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5FD6F0-D458-47C0-8AF6-39DCC2D28CA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
