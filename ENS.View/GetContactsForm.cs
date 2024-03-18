@@ -33,12 +33,7 @@ namespace ENS.View
 
         private void GetContactsButton_Click(object sender, EventArgs e)
         {
-            string path = filePathTextBox.Text;
-            IContactsGetter contactsGetter = new ContactsFromExcelGetter(path);
-
-            DataSet userContacts = contactsGetter.GetContactsAsDataSet();
-
-            userContactsDataGridView.DataSource = userContacts.Tables[0];
+           
         }
     }
 }

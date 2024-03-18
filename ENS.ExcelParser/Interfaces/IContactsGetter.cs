@@ -1,10 +1,10 @@
-﻿using System.Data;
+﻿using ENS.ExcelParser.Models;
+using System.Data;
 
 namespace ENS.ExcelParser.Interfaces
 {
     public interface IContactsGetter
     {
-        public DataSet GetContactsAsDataSet();
+        public IEnumerable<Contact> GetContacts();
     }
-
 }
